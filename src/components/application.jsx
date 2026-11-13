@@ -23,17 +23,14 @@ const Application = () =>
     const [currentIndex, setCurrentIndex] = useState(0);
     
       useEffect(() => {
-        const interval = setInterval(() => {
-          goToNextSlide();
-        }, 3000); // Change slide every 3 seconds
+  const interval = setInterval(() => {
+    setCurrentIndex((index) => (index + 1) % im.length);
+  }, 3000);
+
+  return () => clearInterval(interval);
+}, [im.length]);
     
-        return () => clearInterval(interval);
-      }, [currentIndex]);
-    
-      const goToNextSlide = () => {
-        const nextIndex = (currentIndex + 1) % im.length;
-        setCurrentIndex(nextIndex);
-      };
+  
     
     
     return(

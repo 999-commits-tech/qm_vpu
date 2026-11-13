@@ -7,16 +7,13 @@ import { useNavigate } from "react-router-dom";
 const Navbar = () => {
   const navigate = useNavigate();
   const [userName, setUserName] = useState("LOGIN");
-  useEffect(() => {
-    const display = document.getElementById('displaynav');
-    const userName = localStorage.getItem('userName');
-   
-    
-    if (display && userName) {
-      display.value = userName.toUpperCase();
-    }
-    
-  }, []);
+
+useEffect(() => {
+  const savedName = localStorage.getItem("userName");
+  if (savedName) {
+    setUserName(savedName.toUpperCase());
+  }
+}, []);
 
   return (
     <div className="header">
