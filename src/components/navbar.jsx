@@ -6,7 +6,7 @@ import { useNavigate } from "react-router-dom";
 
 const Navbar = () => {
   const navigate = useNavigate();
-  const [userName, setuserName] = useState("LOGIN");
+  const [userName, setUserName] = useState("LOGIN");
   useEffect(() => {
     const display = document.getElementById('displaynav');
     const userName = localStorage.getItem('userName');

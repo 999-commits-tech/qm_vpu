@@ -35,10 +35,7 @@ const Application = () =>
         setCurrentIndex(nextIndex);
       };
     
-      const goToPrevSlide = () => {
-        const prevIndex = (currentIndex - 1 + im.length) % im.length;
-        setCurrentIndex(prevIndex);
-      };
+    
     return(
  <>
 <div className="hmee">

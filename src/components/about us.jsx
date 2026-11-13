@@ -48,7 +48,7 @@ const AboutUs = () => {
             </div>
             <div className="team-member">
             <img src={img4} alt="team-member" width={150} height={216}/>
-                <h2></h2>
+                
             <p>VINAY<br></br>Frontend developer</p>
           </div>
         </div>

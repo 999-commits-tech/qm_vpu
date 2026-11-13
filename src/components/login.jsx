@@ -1,8 +1,7 @@
-import React from 'react'
+
 import './style/login.css';
 import logo from "./assets/vpu.png";
 import { useNavigate } from "react-router-dom";
-import Footer from './footer';
 import Image from './assets/Profiling-amico.png';
 const Login = () =>  {
   const navigate=useNavigate()
