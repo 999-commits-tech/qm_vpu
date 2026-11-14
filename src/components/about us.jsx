@@ -6,7 +6,7 @@ import img3 from  './assets/harsha_photo.jpg';
 import img4 from './assets/vinay_photo.jpg';
 import { useNavigate } from "react-router-dom";
 
-import logo from "./assets/vpu(wt).png";
+import logo from "./assets/vpu.png";
 const AboutUs = () => {
   const navigate=useNavigate();
   return (

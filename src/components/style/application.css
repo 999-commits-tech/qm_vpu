@@ -60,7 +60,7 @@
 
 .resappli {
   display: flex;
-  gap: 27px;
+  gap: 100px;
   position: relative;
 
 }
@@ -131,7 +131,7 @@
   .resappli 
   {
     flex-direction: row;
-    gap: 27px;
+    gap: 100px;
   }
 
   .carousel-container {
@@ -173,17 +173,26 @@
 }
 
 /* Mobile */
-@media (max-width: 768px) and (min-width:320px)
+@media (max-width: 480px) 
 {
   .appbox {
     padding: 20px;
-    height: 200px;
+    height: 0vh;
     margin-left: 1%;
     font-size: medium;
-    float: none;
+    float:none;
     width: 100%;
     display: block;
-    gap: 15px;
+    gap: 100px;
+    position: relative;
+  }
+  .hmee
+  {
+    background-color: #fff6ea;
+    padding: 10px;
+    width: 100%;
+    position: relative;
+    max-width: 475px;
   }
   .appb1 
   {
@@ -201,19 +210,20 @@
   }
 
   .resappli {
-    flex-direction: row;
-    gap: 15px;
+    flex-direction: column;
+    gap: 100px;
   }
 
   .carousel-container 
   {
-    width: 100%;
-    max-width: 425px;
+    width: 50%;
+    max-width: 400px;
     min-width: 320px;
     position: relative;
   }
 
   .carousel-item img{
-    width: 100%;
+    width: 300px;
+    border-radius: 10px;
   }
 }

@@ -35,6 +35,14 @@ footer
 }
 footer hr { margin: 0.5px 0; /* Adjust vertical margin around the hr element */ }
 @media (max-width: 1024px) {
+     footer
+    {
+        position: relative;
+        bottom: 0;
+        height: auto;
+         right: 0;
+        left: 0;
+    }
     .footer1 {
         flex-direction: row;
         gap: 20px;
@@ -46,6 +54,10 @@ footer hr { margin: 0.5px 0; /* Adjust vertical margin around the hr element */ 
 
 /* Media query for mobile devices */
 @media (max-width: 320px) {
+    footer
+    {
+        position: relative;
+    }
     .footer1 {
         flex-direction: row;
         gap: 10px;
