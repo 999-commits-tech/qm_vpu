@@ -131,7 +131,7 @@
   .resappli 
   {
     flex-direction: row;
-    gap: 100px;
+    gap: 50px;
   }
 
   .carousel-container {
