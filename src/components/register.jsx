@@ -61,7 +61,7 @@ const Reg = () => {
 
             <p style={{ display: 'inline' }}>Last Name</p>
             <p style={{ display: 'inline', color: 'red' }}>*</p>
-            <input type="Lastname" id="lastName" placeholder="enter your Last name(No spaces)" required=""
+            <input type="text" id="lastName" placeholder="enter your Last name(No spaces)" required=""
               value={lastName} onChange={(event) => { setLastName(event.target.value); }} />
 
             <p style={{ display: 'inline' }}>DOB</p>
@@ -72,7 +72,8 @@ const Reg = () => {
             <p style={{ display: 'inline' }}>Gender</p>
             <p style={{ display: 'inline', color: 'red' }}>*</p>
             <select id="gender" name="gender"
-              value={gender} onChange={(event) => { setGender(event.target.value); console.log(event.target.value); }}>
+              value={gender} onChange={(event) => { setGender(event.target.value); console.log(event.target.value); }}
+              >
               <option value="Male">Male</option>
               <option value="Female">Female</option>
               <option value="Others">Others</option>
@@ -90,7 +91,7 @@ const Reg = () => {
             <input type="password" id="password" placeholder="enter your password" required=""
               value={password} onChange={(event) => { setPassword(event.target.value); }} />
 
-            <p style={{ display: 'inline' }}>Mobile no</p>
+            <p style={{ display: 'inline' }}>Mobile</p>
             <p style={{ display: 'inline', color: 'red' }}>*</p>
             <input type="Phonenumber" id="number" placeholder="enter your Mobile no" required=""
               value={phoneNumber} onChange={(event) => { setPhoneNumber(event.target.value); }} />
@@ -98,7 +99,8 @@ const Reg = () => {
             <p style={{ display: 'inline' }}>Role</p>
             <p style={{ display: 'inline', color: 'red' }}>*</p>
             <select id="Student" name="Student"
-              value={role} onChange={(event) => { setRole(event.target.value); console.log(event.target.value); }}>
+              value={role} onChange={(event) => { setRole(event.target.value); console.log(event.target.value); }}
+              >
               <option value="Student">Student</option>
               <option value="Fresher">Fresher</option>
               <option value="Experienced">Experienced</option>

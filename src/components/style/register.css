@@ -144,23 +144,56 @@ a{
 
 
 /* Media Query for Mobile Devices (max-width: 480px) */
-@media (max-width: 768px) and (min-width: 320px) {
-    .box {
+@media (max-width: 480px) {
+    .sign
+    {
+        float: right;
+        margin-right: 0;
         width: 100%;
-       
+        font-size: medium;
+        display: inline;
+        text-align: center;
+    }
+    .signup-form {
+        display: flex;
+        flex-direction: column;
+        float: left;
+        margin-left: -35%;
+        padding: 5px;
+
+    }
+    .signup-form1 {
+        display: flex;
+        flex-direction: column;
+        float: left;
+        margin-left: -48%;
+        padding: 5px;
+
+    }
+    .signup-form input {
+       width: 150%;
+        font-size: x-small;
+    }
+    .signup-form1 input {
+        width: 225%;
+        font-size: x-small;
+    }
+    .box {
+        width: 120%;
         height: auto;
-        margin-left: 1%;
+        margin-left: -15%;
+        border-radius: 10px;
     }
     .page {
       /* Adjust the width to fit within the viewport */
         min-width: 320px; /* Remove fixed min-width */
-        max-width: 768px;
+        max-width: 425px;
         height: 928px;
-       /* Adjust height if needed */
+        position: relative; /* Adjust height if needed */
     }
     input {
         width: 100%; /* Ensure input fits perfectly */
-        font-size: small;
+        font-size: x-small; /* Adjust font size for better readability */
     }
     .lbt1 button {
         width: 100%;
@@ -169,7 +202,16 @@ a{
     }
     .logoin img {
         height: 40px;
+        width: auto;
         margin-left: 0;
+    }
+     #gender{
+        width: 150%;
+        font-size: x-small;
+    }
+    #Student{
+        width: 225%;
+        font-size: x-small;
     }
 }
 

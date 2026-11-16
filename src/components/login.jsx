@@ -34,7 +34,7 @@ const Login = () =>  {
    <br></br><br></br>
     </div>
   <div className="ig1">
-  <img src={Image} width={400} height={250} alt="img"/>
+  <img src={Image} width={300} height={250} alt="img"/>
   </div>
   </div>   
  </div> 
