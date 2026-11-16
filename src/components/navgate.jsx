@@ -3,7 +3,7 @@ import {Routes, Route} from 'react-router-dom';
 import Navbar from './navbar';
 import Login from './login';
 import Reg from './register';
-import Footer from './footer';
+import Footer1 from "./footer";
 import AboutUs from './about us';
 import Application from './application';
 
@@ -16,7 +16,7 @@ export default function Navigate() {
      <Route path='login' element={<Login/>}/>
      <Route path='register' element={<Reg/>}/>
      <Route path='aboutus' element={<AboutUs/>}/>
-     <Route path='footer' element={<Footer/>}/>
+     <Route path='footer' element={<Footer1/>}/>
      </Routes>
     </div>
   );
