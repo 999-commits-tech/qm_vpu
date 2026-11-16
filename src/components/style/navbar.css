@@ -154,33 +154,37 @@
     
   }
   .logo img {
-    float: center;
+    align-items: center;
     height: 50px;
     width: 100px;
-    margin-left: 100px;
+    margin-left: 120px;
   }
   .interview,
   .resume {
     margin-left: 8px;
-    font-size: 0.875rem;
+    font-size: larger;
+    text-align: center;
+    position: relative;
+    border-radius: 1px;
   }
 
   .login {
     display: flex;
     flex-direction: row;
-    align-items: center;
+    margin-left: 95px;
     justify-content: space-between;
-    margin-left: 70px;
+    align-items: center;
+    
   }
 
   .login img {
-    display: block;
-    height: 35px;
+    display: flex;
+    height: 39px;
     width: auto;
   }
 
   #displaynav {
-    font-size: larger;
+    font-size: x-large;
     background-color: #fff6ea;
   }
 }

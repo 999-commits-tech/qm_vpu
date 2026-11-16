@@ -184,9 +184,9 @@
     height: 0vh;
     margin-left: 1%;
     font-size: medium;
-    float:none;
+    float: center;
     width: 100%;
-    display: block;
+    display:contents;
     gap: 100px;
     position: relative;
   }
@@ -204,7 +204,7 @@
   }
 
   .appb1 p {
-    font-size: x-small;
+    font-size: medium;
     text-align: center;
   }
 .bt1{
@@ -215,14 +215,14 @@
   }
   .bt1 button {
     width: 50%;
-    font-size: small;
+    font-size: large;
     padding: 8px;
     float: center;
   }
 
   .resappli {
     flex-direction: column;
-    gap: 100px;
+    gap: 90px;
   }
 
   .carousel-container 
@@ -231,6 +231,8 @@
     max-width: 468px;
     min-width: 320px;
     position: relative;
+    align-items: center;
+    margin-left: 10%;
   }
 
   .carousel-item img{
