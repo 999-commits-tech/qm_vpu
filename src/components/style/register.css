@@ -4,8 +4,15 @@
     padding: 10px;
     width: 120%;
     font-size: medium;
-    border: solid;
-    border-color: silver;   
+     border: solid 2px;
+    border-color:silver;   
+    border-radius: 8px;
+}
+.label 
+{
+    display: flex;
+    content: space-between;
+    gap: 3px;
 }
 .signup-form1 input {
     display: block;
@@ -13,8 +20,9 @@
     padding: 10px;
     width: 120%;
     font-size: medium;
-    border: solid;
+    border: solid 2px;
     border-color: silver;   
+    border-radius: 8px;
 }
 .lbt1 button{
     align-items: center;
@@ -52,16 +60,16 @@ button:hover
 #Student,#gender,#date
 {
     color: #ff914d;
+    
 }
 #gender,#Student
 {
     padding: 10px;
     width: 120%;
     font-size: medium;
-    border-radius: 10px;
-    display: block;
-    border: solid;
-    border-color: silver;
+    border: transparent;
+    text-align: left;
+    
  
 }
 a{
@@ -166,16 +174,16 @@ a{
         display: flex;
         flex-direction: column;
         float: left;
-        margin-left: -48%;
+        margin-left: -60%;
         padding: 5px;
 
     }
     .signup-form input {
-       width: 150%;
+       width: 125%;
         font-size: x-small;
     }
     .signup-form1 input {
-        width: 225%;
+        width: 200%;
         font-size: x-small;
     }
     .box {
@@ -206,11 +214,11 @@ a{
         margin-left: 0;
     }
      #gender{
-        width: 150%;
+        width: 120%;
         font-size: x-small;
     }
     #Student{
-        width: 225%;
+        width: 200%;
         font-size: x-small;
     }
 }

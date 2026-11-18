@@ -54,23 +54,19 @@ const Reg = () => {
         </div>
         <div className="sp">
           <form className="signup-form">
-            <p style={{ display: 'inline' }}>First Name</p>
-            <p style={{ display: 'inline', color: 'red' }}>*</p>
+            <div className="label"> <p>Password</p> <p style={{ color: 'red' }}>*</p></div>
             <input type="text" id="firstName" placeholder="enter your first name(No spaces)" required=""
               value={firstName} onChange={(event) => { setFirstName(event.target.value); }}   />
 
-            <p style={{ display: 'inline' }}>Last Name</p>
-            <p style={{ display: 'inline', color: 'red' }}>*</p>
+            <div className="label"> <p>Password</p> <p style={{ color: 'red' }}>*</p></div>
             <input type="text" id="lastName" placeholder="enter your Last name(No spaces)" required=""
               value={lastName} onChange={(event) => { setLastName(event.target.value); }} />
 
-            <p style={{ display: 'inline' }}>DOB</p>
-            <p style={{ display: 'inline', color: 'red' }}>*</p>
+            <div className="label"> <p>Date of Birth</p> <p style={{ color: 'red' }}>*</p></div>
             <input type="Date" id="date" placeholder="enter your date of birth" required=""
               value={dob} onChange={(event) => { setDob(event.target.value); }} />
               
-            <p style={{ display: 'inline' }}>Gender</p>
-            <p style={{ display: 'inline', color: 'red' }}>*</p>
+            <div className="label"> <p>Gender</p> <p style={{ color: 'red' }}>*</p></div>
             <select id="gender" name="gender"
               value={gender} onChange={(event) => { setGender(event.target.value); console.log(event.target.value); }}
               >
@@ -81,23 +77,19 @@ const Reg = () => {
             <br /><br />
           </form>
           <form className="signup-form1">
-            <p style={{ display: 'inline' }}>Email</p>
-            <p style={{ display: 'inline', color: 'red' }}>*</p>
+            <div className="label"> <p>Email</p> <p style={{ color: 'red' }}>*</p></div>
             <input type="email" id="email" placeholder="enter your mail id" required=""
               value={email} onChange={(event) => { setEmail(event.target.value); }} />
 
-            <p style={{ display: 'inline' }}>Password</p>
-            <p style={{ display: 'inline', color: 'red' }}>*</p>
+            <div className="label"> <p>Password</p> <p style={{ color: 'red' }}>*</p></div>
             <input type="password" id="password" placeholder="enter your password" required=""
               value={password} onChange={(event) => { setPassword(event.target.value); }} />
 
-            <p style={{ display: 'inline' }}>Mobile</p>
-            <p style={{ display: 'inline', color: 'red' }}>*</p>
-            <input type="Phonenumber" id="number" placeholder="enter your Mobile no" required=""
+            <div className="label"> <p>Phone </p> <p style={{ color: 'red' }}>*</p></div>
+            <input type="tel" id="number" placeholder="enter your Mobile no" required=""
               value={phoneNumber} onChange={(event) => { setPhoneNumber(event.target.value); }} />
 
-            <p style={{ display: 'inline' }}>Role</p>
-            <p style={{ display: 'inline', color: 'red' }}>*</p>
+            <div className="label"> <p>Role</p> <p style={{ color: 'red' }}>*</p></div>
             <select id="Student" name="Student"
               value={role} onChange={(event) => { setRole(event.target.value); console.log(event.target.value); }}
               >

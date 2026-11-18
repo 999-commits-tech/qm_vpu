@@ -17,7 +17,7 @@ const Login = () =>  {
 
       <title>Form Validation</title>
   <p style={{padding:'10px 0' }}><l>Sign in to VprepU</l></p>
-  <form className="signup-form">
+  <form className="lg-form">
     <input type="email" id="email" placeholder="Enter your email" required=""/>
     <input
       type="password"
