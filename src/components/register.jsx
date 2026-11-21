@@ -101,7 +101,7 @@ const Reg = () => {
           </form>
         </div>
         <div className='lbt1'>
-            <button type='submit' onClick={save}>continue</button>
+            <button type='submit' onClick={save}>Submit</button>
         </div>
       </div>
     </div>

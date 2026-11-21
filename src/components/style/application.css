@@ -70,9 +70,7 @@
   height: 290px;
 }
 
-.carousel {
-  overflow: hidden;
-}
+
 
 .carousel-item {
   display: none;
@@ -134,7 +132,7 @@
     padding: 10px;
   }
   .carousel{
-    width: 100%;
+    width: 30px;
     height: 290px;
   }
   .carousel-container {
