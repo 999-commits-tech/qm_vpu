@@ -24,7 +24,7 @@
   white-space: nowrap;
   overflow: hidden;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-  color: grey;
+  color: black;
   padding: 25px 0;
 }
 
@@ -189,6 +189,7 @@
     display:contents;
     gap: 100px;
     position: relative;
+    
   }
   .hmee
   {
@@ -204,8 +205,10 @@
   }
 
   .appb1 p {
-    font-size: medium;
+    font-size: smaller;
+    color: black;
     text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   }
 .bt1{
     display: flex;
@@ -222,7 +225,11 @@
 
   .resappli {
     flex-direction: column;
-    gap: 90px;
+    gap: 20px;
+    background-color:  #e4be8d;
+    padding: 10px;
+    height: 555px;
+    border-radius: 10px;
   }
 
   .carousel-container 
@@ -232,7 +239,7 @@
     min-width: 320px;
     position: relative;
     align-items: center;
-    margin-left: 10%;
+    margin-left: 6%;
   }
 
   .carousel-item img{

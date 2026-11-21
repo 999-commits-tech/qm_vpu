@@ -153,21 +153,31 @@
     width: 100%;
     height: 250px;
     padding: 10px;
+    background-color: #e4be8d;
+    border-radius: 10px;
     
+  }
+  .logo{
+   background-color: #fff6ea;
+   width: 107%;
+   margin-left: -10px;
+   height: 250px;
+   
   }
   .logo img {
     align-items: center;
     height: 50px;
-    width: 110px;
-    margin-left: 120px;
+    width: 180px;
+    margin-left: 90px;
+    
   }
   .interview,
   .resume {
     margin-left: 8px;
     font-size: larger;
     text-align: center;
-    position: relative;
-    border-radius: 1px;
+    position: relative;  
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   }
 
   .login {
@@ -187,7 +197,8 @@
 
   #displaynav {
     font-size: x-large;
-    background-color: #fff6ea;
+    background-color: #e4be8d;
+    color: #ff914d;
   }
 }
 

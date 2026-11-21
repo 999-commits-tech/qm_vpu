@@ -41,9 +41,9 @@ const Application = () =>
   <div className="resappli">
       <div className="appbox">
         <div className="appb1">
-          <p><em>"Welcome!<br></br>Start building your resume with AI assistance."</em></p>
+          <p><em> Welcome..! <br></br>Start Building Your Resume With AI Assistance </em></p>
           <div className="bt1">
-            <button type='submit' onClick={()=>navigate("/resume")}><em>Start Building</em></button>
+            <button type='submit' onClick={()=>navigate("/resume")}><em>Resume</em></button>
           </div>
         </div>  
       </div><br></br>
