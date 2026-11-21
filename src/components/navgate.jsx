@@ -15,7 +15,7 @@ export default function Navigate() {
      <Route path='navbar' element={<Navbar/>}/>
      <Route path='login' element={<Login/>}/>
      <Route path='register' element={<Reg/>}/>
-     <Route path='aboutus' element={<AboutUs/>}/>
+    {/*<Route path='aboutus' element={<AboutUs/>}/>*/}
      <Route path='footer' element={<Footer1/>}/>
      </Routes>
     </div>
